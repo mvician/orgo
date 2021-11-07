@@ -88,32 +88,69 @@ a{
     font-size: 1.5rem;
 }
 
+/*what section*/
+
 .first-page {
     height: 100vh;
     background: rgb(21, 21, 21);
     color: white;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
+
+.propIV {
+align-items: center;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+.intro {
+    padding-top: 6rem;
+    padding-left: 4rem;
+
+    font-size: 2rem;
+}
+
+/*how section*/
 
 .second-page {
     height: 100vh;
     background: #D1D5DB;
     color: black;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
+
+.propStructure {
+    align-items: center;
+}
+
+.how {
+    font-size: 1.2rem;
+
+    padding-top: 4rem;
+    padding-right: 4rem;
+}
+
+/*fun fact section*/
 
 .third-page {
     height: 100vh;
     background: #991B1B;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+    padding: 6rem;
+
+    font-size: 1.4rem;
+
+    margin: auto;
 }
+
+
+
+/*3D page*/
 
 .home {
     height: 100vh;
