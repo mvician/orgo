@@ -132,13 +132,9 @@ a{
 }
 
 .informationTag {
-    position: absolute;
-
-    left: 60%;
-    top: 40%;
-
     font-size: 3rem;
     font-weight: 700;
+    padding-left: 1rem;
 }
 
 .oxygen {
@@ -151,5 +147,10 @@ a{
     font-weight: normal;
     color: blue;
     font-size: 2rem;
+}
+
+.visual-one {
+    display: flex;
+    align-items: center;
 }
 
