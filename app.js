@@ -45,10 +45,20 @@ let tl5 = gsap.timeline({
     },
 });
 
+let tl7 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".home",
+        start: "0%",
+        end: "1%",
+        scrub: 0,
+    },
+});
+
 tl6.to(".threeDim", {opacity: 1})
 tl4.fromTo(".mainBackground", {opacity: 0.3}, {opacity: 0})
 tl.fromTo(".sliding-text", {y: 0}, {y: -400})
 tl2.fromTo(".logo", {scale: 3.5,}, {scale: 1, top: "2rem", left: "3rem",  x: "50%",})
+tl7.to(".research", {opacity:0})
 tl5.to(".beta-blockers", {opacity:0})
 // trigger means that as soon as you hit the home section, 
 // the following animation will occur.
